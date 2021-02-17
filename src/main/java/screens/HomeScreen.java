@@ -33,7 +33,7 @@ public class HomeScreen extends BaseScreen {
     private MobileElement checkCadastro;
 
     @AndroidFindBy(accessibility = "codigo")
-    @iOSXCUITFindBy(xpath = "(//XCUIElementTypeTextField[@name=\"RNE__Input__text-input\"])[1]\n")
+    @iOSXCUITFindBy(accessibility = "codigo")
     private MobileElement fieldCodigo;
 
     @AndroidFindBy(accessibility = "logout")
