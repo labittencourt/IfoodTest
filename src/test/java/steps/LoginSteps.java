@@ -1,7 +1,6 @@
 package steps;
 
 import cucumber.api.java.pt.*;
-import screens.HomeScreen;
 import screens.LoginScreen;
 
 
@@ -39,7 +38,6 @@ public class LoginSteps {
 
     @Entao("app exibe a tela home")
     public void appExibeATelaHome() {
-//        home.validarTelaHome();
         login.validarTelaHome();
     }
 
